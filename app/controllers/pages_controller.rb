@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
   def home
   	@title = 'Home'
+        @newvar = 478
+
   end
  
 
